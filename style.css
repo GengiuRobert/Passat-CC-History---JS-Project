@@ -1,0 +1,241 @@
+/*header of the whole page */
+#headerContainer {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0.5px;
+    margin: 0;
+}
+
+#startingHeader {
+    display: inline;
+    margin-left: 300px;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    vertical-align: middle;
+}
+
+#topPageContainer {
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    margin: 0;
+    z-index: 10;
+}
+
+#vw_lineimg {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 1);
+}
+/*-----------------*/
+
+
+
+/*body related*/
+body {
+    background: linear-gradient(to right, hsl(203, 99%, 35%), #6a6a6a49);
+    margin: 0;
+    padding: 0;
+}
+/*-----------------*/
+
+
+
+/*dropdownMenu contents*/
+.dropdownMenu {
+    display: inline;
+    position: relative;
+}
+
+.dropdownMenu img.hamburger {
+    cursor: pointer;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.dropdownMenu a {
+    text-decoration: none;
+    display: block;
+    padding: 15px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(5px);
+}
+
+.dropdownMenu .dropdownContent {
+    box-shadow: 2px 2px 5px;
+    min-width: 100px;
+    position: absolute;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.dropdownMenu:hover .dropdownContent {
+    display: block;
+}
+
+.dropdownMenu a:hover {
+    background-color: hsl(203, 72%, 50%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), #6a6a6a49);
+    backdrop-filter: blur(5px);
+}
+/*-----------------*/
+
+
+
+/*h3 related*/
+h3 {
+    box-shadow: 5px 5px 3px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 3px;
+    background: linear-gradient(to right, hsl(0, 0%, 55%), #ffffff);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    vertical-align: middle;
+}
+/*-----------------*/
+
+
+
+/*p related*/
+p {
+    box-shadow: 5px 5px 3px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    background: linear-gradient(to right, hsl(0, 0%, 55%), #ffffff);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    display: inline-block;
+}
+/*-----------------*/
+
+
+
+/*c1 related*/
+#C1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+audio {
+    vertical-align: middle;
+    height: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/*slideshow related*/
+.mySlides {
+    display: none;
+}
+
+.slideimage {
+    vertical-align: middle;
+    width: 500px;
+    height: 300px;
+}
+
+.slideshowcontainer {
+    max-width: 500px;
+    padding: auto;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+}
+/*-----------------*/
+
+
+
+/*dots realted*/
+.dot {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dotscontainer {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+/*-----------------*/
+
+
+
+/*number of the showed page 1/6 etc*/
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+    box-shadow: 5px 5px 3px;
+    background: linear-gradient(to right, hsl(0, 0%, 55%), #ffffff);
+}
+/*-----------------*/
+
+
+
+/*description of showed page*/
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+/*-----------------*/
+
+
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+/*-----------------*/
+
+
+
