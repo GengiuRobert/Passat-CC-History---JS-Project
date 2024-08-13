@@ -155,34 +155,34 @@ function loadSalesChartC3() {
             legend: {
                 display: true,
                 labels: {
-                    fontColor: "black", // Culoarea textului legendei
-                    fontFamily: "'Georgia', 'Times New Roman', serif", // Tipul de font pentru legendă
-                    fontSize: 20, // Mărimea fontului pentru legendă
+                    fontColor: "black", 
+                    fontFamily: "'Georgia', 'Times New Roman', serif", 
+                    fontSize: 20, 
                     fontStyle: "bold"
                 }
             },
             title: {
                 display: true,
                 text: "Sales Data Over the Years",
-                fontColor: "black", // Culoarea textului titlului
-                fontFamily: "'Georgia', 'Times New Roman', serif", // Tipul de font pentru titlu
-                fontSize: 18, // Mărimea fontului pentru titlu
+                fontColor: "black", 
+                fontFamily: "'Georgia', 'Times New Roman', serif",
+                fontSize: 18, 
                 fontStyle: "bold"
             },
             scales: {
                 xAxes: [{
                     ticks: {
-                        fontColor: "black", // Culoarea textului pentru axe
-                        fontFamily: "'Georgia', 'Times New Roman', serif", // Tipul de font pentru axe
-                        fontSize: 12, // Mărimea fontului pentru axe
+                        fontColor: "black", 
+                        fontFamily: "'Georgia', 'Times New Roman', serif", 
+                        fontSize: 12, 
                         fontStyle: "bold"
                     }
                 }],
                 yAxes: [{
                     ticks: {
-                        fontColor: "black", // Culoarea textului pentru axe
-                        fontFamily: "'Georgia', 'Times New Roman', serif", // Tipul de font pentru axe
-                        fontSize: 12, // Mărimea fontului pentru axe
+                        fontColor: "black", 
+                        fontFamily: "'Georgia', 'Times New Roman', serif", 
+                        fontSize: 12, 
                         fontStyle: "bold"
                     }
                 }]
