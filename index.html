@@ -7,31 +7,33 @@
     <title>Passat CC History</title>
     <link rel="stylesheet" href="/passat cc history/css/style.css">
     <link rel="stylesheet" href="/passat cc history/css/lightbox.min.css">
+
 </head>
 
 <body>
     <div id="topPageContainer">
         <div id="headerContainer">
             <div class="dropdownMenu">
-                <img class="hamburger" src="/passat%20cc%20history/images/vw_logo.png" alt="Hamburger Icon">
+                <img class="hamburger" src="/passat%20cc%20history/images/other_images/vw_logo.png"
+                    alt="Hamburger Icon">
                 <div class="dropdownContent">
                     <a href="#C1">Short Volkswagen History</a>
                     <a href="#C2">Introduction</a>
                     <a href="#C3">Market Launch</a>
-                    <a href="">Specifications</a>
+                    <a href="#C4">Specifications</a>
                     <a href="">Facelift of 1st Generation CC</a>
                     <a href="">Arteon, Successor of VW CC</a>
                 </div>
             </div>
             <h2 id="startingHeader">Volkswagen Passat CC: Elegance and Performance in Motion</h2>
         </div>
-        <img id="vw_lineimg" src="/passat%20cc%20history/images/line_1.png" alt="Line Image">
+        <img id="vw_lineimg" src="/passat%20cc%20history/images/other_images/line_1.png" alt="Line Image">
     </div>
 
     <div id="C1">
         <h3 id="h3ofC1">Volkswagen History, How It Started? What "Volkswagen" Actually Means?</h3>
         <p id="pofC1">Volkswagen (VW; German pronunciation: [ˈfɔlksˌvaːɡn̩] <audio controls>
-                <source src="volkswagen_german_pronunciation.mp3">
+                <source src="/passat cc history/audio/volkswagen_german_pronunciation.mp3">
             </audio>) is a German automobile manufacturer headquartered in
             Wolfsburg, Lower Saxony, Germany.
             Founded in 1937 by the German Labour Front under the Nazi Party and revived into the global brand it is
@@ -93,13 +95,6 @@
         </div>
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
     <div id="C2">
         <h3 class="h3ofC2">The Birth of the Volkswagen Passat CC: A New Era of Comfort and Style</h3>
         <p id="pofC2">The Volkswagen CC, originally marketed as the Volkswagen Passat CC in its first generation, is a
@@ -128,12 +123,6 @@
         </div>
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
     <div id="C3">
         <h3 class="h3ofC3">Market Launch</h3>
@@ -152,7 +141,146 @@
         <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
     </div>
 
-    <script src="/passat cc history/js/index.js"></script>
+    <div id="C4">
+        <h3 class="h3ofC4">Specifications</h3>
+        <p id="pofC4">The car has a 2,710 mm (106.7 in) wheelbase and was available with a 1.4 L E85 TFSI (Finland and
+            Sweden), 1.8
+            L petrol inline-four, 2.0 L petrol inline four, a 2.0 L inline four TDI engine in various drivetrain
+            configurations, as well as with a 3.6 L VR6 engine producing 220 kW (299 PS; 295 hp) with 4motion four-wheel
+            drive and a six speed Direct-Shift Gearbox transmission.
+            The North American market had the 2.0T I4 and 3.6 L VR6 engine as options. This version of the VR6 engine
+            produced 206 kW (276 hp) and 265 lb⋅ft (359 N⋅m) of torque in both front wheel drive and 4MOTION versions,
+            while the 2.0T produced 200 hp (149 kW) and 207 lb⋅ft (281 N⋅m). Manual transmission was available in the
+            2.0T engine option only. It also came with automatic transmission.
+            On the European market, the CC was offered with 4MOTION four-wheel-drive on the 2.0 L TDI engines. The 103
+            kW (140 PS) model came with manual transmission and the 125 kW (170 PS) model with Direct-Shift Gearbox
+            (DSG). An AdBlue version offering 105 kW (143 PS) named BlueTDI was also produced. Availability varied by
+            national markets.
+            For the 2011 model year, the 2.0T in Europe was upgraded to 155 kW (211 PS; 208 hp) by using the engine
+            variant introduced in the Golf VI GTI.</p>
+        <h3 class="h3ofC4">Engine Specifications</h3>
+        <table id="specificationsTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">Engine</th>
+                    <th onclick="sortTable(1)">Displacement</th>
+                    <th onclick="sortTable(2)">Produced</th>
+                    <th onclick="sortTable(3)">Max. power @ rpm</th>
+                    <th onclick="sortTable(4)">Max. torque @ rpm</th>
+                    <th onclick="sortTable(5)">Top speed (manual/auto)</th>
+                    <th onclick="sortTable(6)">Transmission</th>
+                    <th onclick="sortTable(7)">0–100 km/h (0–62 mph) (sec) (manual/auto)</th>
+                    <th onclick="sortTable(8)">CO₂ emissions (g/km) (manual/auto)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.4L TSI</td>
+                    <td>turbo inline 4-cylinder petrol/E85</td>
+                    <td>2012–</td>
+                    <td>160 PS (118 kW; 158 hp) @ 5,000–6,200</td>
+                    <td>240 N⋅m (177 lb⋅ft) @ 2,000</td>
+                    <td>222 km/h (137.9 mph)/222 km/h (137.9 mph)/</td>
+                    <td>6-speed manual, 7-speed Direct-shift gearbox</td>
+                    <td>8.5/8.5</td>
+                    <td>161/159</td>
+                </tr>
+                <tr>
+                    <td>1.8L TSI</td>
+                    <td>turbo inline 4-cylinder petrol (1.8 TFSI EA888)</td>
+                    <td>2012–</td>
+                    <td>160 PS (118 kW; 158 hp) @ 5,000–6,200</td>
+                    <td>250 N⋅m (184 lb⋅ft) @ 1,500–4,200</td>
+                    <td>223 km/h (138.6 mph)/223 km/h (138.6 mph)/</td>
+                    <td>6-speed manual, 7-speed Direct-shift gearbox</td>
+                    <td>8.6/8.5</td>
+                    <td>165/167</td>
+                </tr>
+                <tr>
+                    <td>2.0L TSI</td>
+                    <td>turbo inline 4-cylinder petrol (2.0 TFSI EA888)</td>
+                    <td>2012–</td>
+                    <td>211 PS (155 kW; 208 hp) @ 5,300–6,200</td>
+                    <td>280 N⋅m (207 lb⋅ft) @ 1,700–5,200</td>
+                    <td>242 km/h (150.4 mph)//DSG 240 km/h (149.1 mph)</td>
+                    <td>6-speed manual, 6-speed Direct-shift gearbox</td>
+                    <td>6.5/6.5</td>
+                    <td>171/182</td>
+                </tr>
+                <tr>
+                    <td>2.0L TDI</td>
+                    <td>turbo inline 4-cylinder diesel (2.0 TDI CR EA189)</td>
+                    <td>2012–</td>
+                    <td>140 PS (103 kW; 138 hp) @ 4,200</td>
+                    <td>320 N⋅m (236 lb⋅ft) @ 1,750–2,500</td>
+                    <td>214 km/h (133.0 mph)/212 km/h (131.7 mph)</td>
+                    <td>6-speed manual, 6-speed Direct-shift gearbox</td>
+                    <td>9.8/9.8</td>
+                    <td>125/139</td>
+                </tr>
+                <tr>
+                    <td>2.0L TDI 110 kW</td>
+                    <td>turbo inline 4-cylinder diesel (2.0 TDI CR EA288)</td>
+                    <td>2015–2016</td>
+                    <td>150 PS (110 kW; 148 hp) @ 3,500-4,000</td>
+                    <td>340 N⋅m (251 lb⋅ft) @ 1,750–3,000</td>
+                    <td>218 km/h (135.5 mph)/218 km/h (135.5 mph)</td>
+                    <td>6-speed manual, 6-speed Direct-shift gearbox</td>
+                    <td>9.1/9.1</td>
+                    <td>118/127</td>
+                </tr>
+                <tr>
+                    <td>2.0L TDI 127 kW</td>
+                    <td>turbo inline 4-cylinder diesel (2.0 TDI CR EA189)</td>
+                    <td>2012–2013</td>
+                    <td>170 PS (125 kW; 168 hp) @ 4,200</td>
+                    <td>350 N⋅m (258 lb⋅ft) @ 1,750–2,500</td>
+                    <td>227 km/h (141.1 mph)/224 km/h (139.2 mph)</td>
+                    <td>6-speed manual, 6-speed Direct-shift gearbox</td>
+                    <td>8.6/8.6</td>
+                    <td>129/144</td>
+                </tr>
+                <tr>
+                    <td>2.0L TDI 132 kW</td>
+                    <td>turbo inline 4-cylinder diesel (2.0 TDI CR EA189)</td>
+                    <td>2013–2015</td>
+                    <td>177 PS (130 kW; 175 hp) @ 4,200</td>
+                    <td>380 N⋅m (280 lb⋅ft) @ 1,750–2,500</td>
+                    <td>227 km/h (141.1 mph)/224 km/h (139.2 mph)</td>
+                    <td>6-speed manual, 6-speed Direct-shift gearbox</td>
+                    <td>8.4/8.4</td>
+                    <td>125/137</td>
+                </tr>
+                <tr>
+                    <td>2.0L TDI 135 kW</td>
+                    <td>turbo inline 4-cylinder diesel (2.0 TDI CR EA288)</td>
+                    <td>2015–2016</td>
+                    <td>184 PS (135 kW; 181 hp) @ 4,000</td>
+                    <td>380 N⋅m (280 lb⋅ft) @ 1,750–3,250</td>
+                    <td>234 km/h (145.4 mph)/232 km/h (144.2 mph)</td>
+                    <td>6-speed manual, 6-speed Direct-shift gearbox</td>
+                    <td>8.1/8.1</td>
+                    <td>127/130</td>
+                </tr>
+                <tr>
+                    <td>3.6L 4motion</td>
+                    <td>V6 petrol (3.6 VR6 FSI 220 kW)</td>
+                    <td>2012–2016</td>
+                    <td>299 PS (220 kW; 295 hp) @ 6,600</td>
+                    <td>350 N⋅m (258 lb⋅ft) @ 2,400–5,300</td>
+                    <td>250 km/h (155.3 mph) (electronically limited)</td>
+                    <td>6-speed Direct-shift gearbox</td>
+                    <td>na/5.5</td>
+                    <td>na/215</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="/passat cc history/js/c1.js"></script>
+    <script src="/passat cc history/js/c2.js"></script>
+    <script src="/passat cc history/js/c3.js"></script>
+    <script src="/passat cc history/js/c4.js"></script>
     <script src="/passat cc history/js/lightbox-plus-jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </body>
