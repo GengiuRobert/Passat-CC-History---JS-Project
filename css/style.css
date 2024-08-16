@@ -278,4 +278,20 @@ audio {
 #specificationsTable tbody tr:hover {
     background-color: #f1f1f1;
 }
+
+/*-----------------*/
+
+
+
+/*hover effect on the images on the gallery on C2*/
+#galleryC5 img {
+    filter: grayscale(100%);
+    transition: filter 1s ease, transform 1s ease;
+}
+
+#galleryC5 img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
 /*-----------------*/

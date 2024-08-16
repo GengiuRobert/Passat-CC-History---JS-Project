@@ -49,6 +49,7 @@ function paragraphC4Loaded() {
     table.style.boxShadow = "5px 5px 3px";
     table.style.borderRadius = "3px";
     table.style.fontFamily = "Georgia, 'Times New Roman', Times, serif";
+    table.style.marginBottom = "150px";
 
 
     //apply css for table datas
