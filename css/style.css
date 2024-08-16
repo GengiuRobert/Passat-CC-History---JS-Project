@@ -283,13 +283,41 @@ audio {
 
 
 
-/*hover effect on the images on the gallery on C2*/
+/*hover effect on the images on the gallery on C5*/
 #galleryC5 img {
     filter: grayscale(100%);
     transition: filter 1s ease, transform 1s ease;
 }
 
 #galleryC5 img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+/*-----------------*/
+
+
+
+/*hover effect on the images on the gallery on C6*/
+#galleryC6 img {
+    filter: grayscale(100%);
+    transition: filter 1s ease, transform 1s ease;
+}
+
+#galleryC6 img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+/*-----------------*/
+
+/*hover effect on the images on the gallery on C6v2*/
+#galleryC6v2 img {
+    filter: grayscale(100%);
+    transition: filter 1s ease, transform 1s ease;
+}
+
+#galleryC6v2 img:hover {
     filter: grayscale(0%);
     transform: scale(1.1);
 }

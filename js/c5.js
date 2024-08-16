@@ -62,8 +62,8 @@ function paragraphC5Loaded() {
 }
 
 //code responsible for image gallery C5
-document.addEventListener("DOMContentLoaded", galleryC2Loaded);
-function galleryC2Loaded() {
+document.addEventListener("DOMContentLoaded", galleryC5Loaded);
+function galleryC5Loaded() {
     const galleryContainer = document.getElementById("galleryC5");
     const imagesFromGallery = galleryContainer.getElementsByTagName("img");
 
