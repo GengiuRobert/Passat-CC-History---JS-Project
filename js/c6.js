@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", paragraphC5Loaded);
-function paragraphC5Loaded() {
-    // select the ID of C elements
+document.addEventListener("DOMContentLoaded", paragraphC6Loaded);
+function paragraphC6Loaded() {
+    // select the ID of C6 elements
     const c6Container = document.getElementById("C6");
     const h3ofContainer = document.getElementsByClassName("h3ofC6");
     const pOfContainer = document.getElementsByClassName("pofC6");
